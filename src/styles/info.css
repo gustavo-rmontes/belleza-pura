@@ -55,3 +55,20 @@ input:focus {
     outline: none;
     box-shadow: 0 0 4px rgba(223, 164, 3, 0.300);
 }
+
+/* Validação Form */
+/* Mensagens de erro */
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: none; /* Oculto por padrão */
+}
+
+/* Mensagem de sucesso */
+.success-message {
+    color: green;
+    font-size: 1em;
+    margin-top: 10px;
+    display: none; /* Oculto por padrão */
+}

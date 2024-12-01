@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/hero.css">
     <link rel="stylesheet" href="src/styles/products.css">
     <link rel="stylesheet" href="src/styles/info.css">
     <link rel="stylesheet" href="src/styles/footer.css">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> <!--JQuery-->
+    
+    <script src="src/javascript/scroll.js" defer></script>
+    <script src="src/javascript/form_validation.js" defer></script>
 
     <title>Belleza Pura</title>
 </head>
@@ -69,13 +69,20 @@
         <span class="info_span" id="more">
             <h3 class="span_title">Saiba mais</h3>
             <form action="/submit" method="get">
-                <label class="form_label" for="name">Nome</label>
-                <input type="text" name="name" id="name" placeholder="Nome" required>
+                <div class="form-group">
+                    <label class="form_label" for="name">Nome:</label>
+                    <input type="text" name="name" id="name" placeholder="Nome" required>
+                    <small class="error-message" id="nameError"></small>
+                </div>
 
-                <label class="form_label" for="email">Email</label>
-                <input type="text" name="email" id="email" placeholder="Email" required>
+                <div class="form-group">
+                    <label class="form_label" for="email">Email:</label>
+                    <input type="text" name="email" id="email" placeholder="Email" required>
+                    <small class="error-message" id="emailError"></small>
+                </div>
 
                 <button class="btn-default" type="submit">Enviar</button>
+                <p id="formMessage" class="success-message"></p>
             </form>
         </span>
     </section>
@@ -91,5 +98,4 @@
         </ul>
     </span>
 </footer>
-
 </html>
