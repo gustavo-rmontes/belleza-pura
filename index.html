@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
     <link rel="stylesheet" href="src/styles/hero.css">
+    <link rel="stylesheet" href="src/styles/products.css">
+    <link rel="stylesheet" href="src/styles/info.css">
+    <link rel="stylesheet" href="src/styles/footer.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -19,21 +22,42 @@
     <nav id="navbar">
         <h1 id="nav_logo">Belleza Pura</h1>
         <ul id="nav_list">
-            <li class="nav-item"> <a href="#home">Início</a> </li>
-            <li class="nav-item"> <a href="#products">Produtos</a> </li>
-            <li class="nav-item"> <a href="#about_us">Sobre nós</a> </li>
+            <li class="nav-item"> <a href="#hero">Início</a> </li>
+            <li class="nav-item"> <a href="#sellings">Produtos</a> </li>
+            <li class="nav-item"> <a href="#info">Sobre nós</a> </li>
         </ul>
     </nav>
 </header>
 
 <body>
-    <section id="hero" #home>
+    <section id="hero">
         <span id="presentation">
             <h2 id="hero-title">Belezza que Transforma o Mundo</h2>
-            <h3 id="hero-subtitle">Descubra cosméticos sustentáveis que cuidam de você e do planeta. Ingredientes naturais, impacto positivo.</h3>
+            <h3 id="hero-subtitle">Descubra cosméticos sustentáveis que cuidam de você e do planeta.Ingredientes naturais, impacto positivo.</h3>
             <button class="btn-default">Experimente</button>
         </span>
         <span id="hero-figure"> <img id="hero-image" src="assets/arvore.png" alt="Uma árvore"></span>
+    </section>
+
+    <section id="sellings">
+        <h3 id="sellings-title">Produtos</h3>
+        <span id="span_prod">
+            <div class="products">
+                <h5 class="products-title">Esmalte PURO</h5>
+                <img src="assets/esmalte.png" alt="Linha de esmaltes veganos">
+                <button class="btn-default">Comprar</button>
+            </div>
+            <div class="products">
+                <h5 class="products-title">Batom PURO</h5>
+                <img src="assets/batom.png" alt="Batom líquido">
+                <button class="btn-default">Comprar</button>
+            </div>
+            <div class="products">
+                <h5 class="products-title">Skin Care PURO</h5>
+                <img src="assets/kit-skin_care.png" alt="Kit de produtos para skin care">
+                <button class="btn-default">Comprar</button>
+            </div>
+        </span>
     </section>
 
     <section id="info">
@@ -60,14 +84,10 @@
 <footer id="footer">
     <span class="socials">
         <ul class="socials_list" >
-            <li class="socials_list-item"> <a href="-">Instagram</a> </li>
-            <li class="socials_list-item"> <a href="-">Youtube</a> </li>
-        </ul>
-    </span>
-    <span class="socials">
-        <ul class="socials_list" >
-            <li class="socials_list-item"> <a href="-">Facebook</a> </li>
-            <li class="socials_list-item"> <a href="-">X</a> </li>
+            <li class="socials_list-item"> <a href="https://kyraly.com/">Instagram</a> </li>
+            <li class="socials_list-item"> <a href="https://kyraly.com/">Youtube</a> </li>
+            <li class="socials_list-item"> <a href="https://kyraly.com/">Facebook</a> </li>
+            <li class="socials_list-item"> <a href="https://kyraly.com/">X</a> </li>
         </ul>
     </span>
 </footer>
