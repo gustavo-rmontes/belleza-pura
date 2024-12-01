@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/styles/styles.css">
     <link rel="stylesheet" href="src/styles/header.css">
+    <link rel="stylesheet" href="src/styles/hero.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -16,18 +17,26 @@
 
 <header>
     <nav id="navbar">
-        <h1>Belleza Pura</h1>
-        <h2>
-            <ul id="nav_list">
-                <li class="nav-item"> <a href="#home">Início</a> </li>
-                <li class="nav-item"> <a href="#products">Produtos</a> </li>
-                <li class="nav-item"> <a href="#about_us">Sobre nós</a> </li>
-            </ul>
-        </h2>
+        <h1 id="nav_logo">Belleza Pura</h1>
+        <ul id="nav_list">
+            <li class="nav-item"> <a href="#home">Início</a> </li>
+            <li class="nav-item"> <a href="#products">Produtos</a> </li>
+            <li class="nav-item"> <a href="#about_us">Sobre nós</a> </li>
+        </ul>
     </nav>
 </header>
 
 <body>
+    <section id="hero" #home>
+        <span id="presentation">
+            <h2 id="hero-title">Belezza que Transforma o Mundo</h2>
+            <h3 id="hero-subtitle">Descubra cosméticos sustentáveis que cuidam de você e do planeta. Ingredientes naturais, impacto positivo.</h3>
+            <button class="btn-default">Experimente</button>
+        </span>
+        <span id="hero-figure"> <img id="hero-image" src="assets/arvore.png" alt="Uma árvore"></span>
+    </section>
+
+
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras
         venenatis euismod malesuada. Suspendisse potenti. Nulla facilisi. Morbi luctus diam eu felis facilisis, at
         commodo orci tempor. Mauris pharetra odio sed nisi varius, eget feugiat mauris congue. Aenean vitae neque vel

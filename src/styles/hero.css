@@ -1,0 +1,24 @@
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 110px 20px 30px;
+}
+
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+}
+
+#hero-title{
+    font-weight: 550;
+}
+
+#hero-subtitle {
+    font-weight: 450;
+    width: 50%;
+}
