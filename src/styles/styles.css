@@ -15,3 +15,21 @@
 body {
   background-color: #FFE5D8;
 }
+
+.btn-default {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F29264;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 2s ease;
+}
+
+.btn-default:hover{
+  background-color: #ECB69C;
+}
