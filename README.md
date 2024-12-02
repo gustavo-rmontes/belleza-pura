@@ -3,6 +3,8 @@ Landing page da empresa fictícia <b>Belleza Pura</b> requisitado para o desafio
 
 O repositório contempla os arquivos HTML, CSS e JS necessários para a landing page, além do design feito em Figma e um vídeo que explica as decisões tomadas ao longo da criação da página.
 
+**Hosteado em:** [belleza-pura](https://montes-bellezapura.netlify.app/)
+
 ## Objetivo
 Desenvolver uma landing page para a marca Belleza Pura, especializada em cosméticos sustentáveis. A página deve ser funcional, atraente e focada em capturar leads, destacando a nova linha de produtos veganos. 
 
